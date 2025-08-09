@@ -12,10 +12,13 @@ body{
 
 header{
     background-color: #e0caca;
-    border-bottom: solid 5px #000000;
+    border: solid 5px #000000;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
 }  
 
 header img{
@@ -43,8 +46,8 @@ nav ul li a:hover{
     color:rgb(255, 0, 0);
     font-weight: bolder;
     background-color: #000000;
-    padding: 5px;
-    border-radius: 35%;
+    padding: 10px;
+    border-radius: 20px;
 }
 body h1{
     text-align: center;
@@ -63,7 +66,7 @@ body p{
     padding-top: 20px;
     width: 300px;
     height: 350px;
-
+    border-radius: 250px;
 }
 
 .Expl img{
@@ -73,7 +76,12 @@ body p{
     width: 400px;
     height: auto;
 }
-
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(240, 248, 255, 0.544);
+    border-radius: 5px;
+}
 .guia img{
     display: flex;
     justify-content: center;
